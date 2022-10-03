@@ -5,7 +5,9 @@ import org.junit.jupiter.api.Test
 class MyTest {
 
     @Test
-    fun `Examples`() {
-
+    fun `Open-ended range operator`() {
+        (0..<3).forEach {
+            println(it)
+        }
     }
 }
