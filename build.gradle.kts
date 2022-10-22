@@ -22,12 +22,14 @@ tasks {
     compileKotlin {
         kotlinOptions {
             jvmTarget = "11"
+            languageVersion = "1.8"
         }
     }
 
     compileTestKotlin {
         kotlinOptions {
             jvmTarget = "11"
+            languageVersion = "1.8"
         }
     }
 
